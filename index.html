@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+    	.home {
+    		background-image: url("img/bg1.jpeg");
+			  background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-attachment: fixed; */
+        height: 50rem;
+    	}
+
+    	.footer {
+    		height: 100px;
+    	}
+    	.center {
+    		position: relative;
+    		bottom: 30rem;
+    	}
+
+    	.carousel-inner {
+    		padding: 10px 10rem;
+    		max-width: 30rem;
+    		max-height: 30rem;
+    	}
+    	
+    	.about h1 {
+    	  color: #000;
+    	  font-weight: 800;
+    	}
+    	
+    	.produk {
+    		padding: 10px 10rem;
+    		align-content: ;
+    	}
+
+
+
+    </style>
+  </head>
+  <body>
+  	
+  	<!-- start home -->
+  <div class="home opacity-75 d-flex justify-content-center align-items-center display-5 fs-5">
+  	
+  <!-- <span class="center">SMK PERTIWI KUNINGAN</span> -->
+  	<header class="d-flex justify-content-center align-items-center">
+  		
+  	<h4 class="center text-primary">SMK PERTIWI KUNINGAN</h4>
+  	</header>
+
+  	<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">	
+    <nav class="navbar navbar-dark bg-primary fixed-top p-3 bg-opacity-50">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SPW SMK PERTIWI KUNINGAN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SPW</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#produk">Product</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+  </div>
+<!--  end Home -->
+
+<!--  start About -->
+<div class="container-fluid text-center bg-primary opacity-50 p-3">
+  <section id="about">
+    <h1 class="display-6 text-light p-3">About Me</h1>
+    
+    <div class="row">
+      <div class="col">
+        <p class="text-light fs-5 p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iusto nemo dolore veniam ab reprehenderit id eius quidem consequuntur debitis recusandae, et quia incidunt consequatur eos voluptatem neque repudiandae, necessitatibus ut perspiciatis placeat. Deserunt totam doloribus, optio similique dicta exercitationem vero repudiandae ipsum explicabo non et accusantium sapiente recusandae maxime excepturi iste, consectetur molestiae ipsa architecto eius facere veniam enim obcaecati ullam. Itaque maiores consequatur porro ratione, laboriosam quo minima enim deserunt fugiat blanditiis voluptates qui maxime dolorem autem. Perferendis alias, magni beatae, voluptas libero nobis dolor necessitatibus, aperiam, optio numquam error inventore saepe suscipit ratione reiciendis natus maxime ducimus?</p>
+      </div>
+    </div>
+    
+    
+  </section>
+</div>
+<!--  end About -->
+
+<!-- start Product -->
+
+<div class="container text-center p-3 opacity-50">
+  <section id="produk">
+    <h1 class="display-6 p-3">Product</h1>
+    <div class="row p-3">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="img/baso.jpg" class="img-thumbnail" alt="ini Produk Risol" style="border-radius: 50%;">
+        <h5 class="card-title">Baso Sapi</h5>
+        <p class="card-text">Rp.15.000,00</p>
+        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+      </div>  
+    </div>
+  </div>
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="img/baso.jpg" class="img-thumbnail" alt="ini Produk Risol" style="border-radius: 50%;">
+        <h5 class="card-title">Baso Sapi</h5>
+        <p class="card-text">Rp.15.000,00</p>
+        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row p-3">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="img/baso.jpg" class="img-thumbnail" alt="ini Produk Risol" style="border-radius: 50%;">
+        <h5 class="card-title">Baso Sapi</h5>
+        <p class="card-text">Rp.15.000,00</p>
+        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <img src="img/baso.jpg" class="img-thumbnail" alt="ini Produk Risol" style="border-radius: 50%;">
+        <h5 class="card-title">Baso Sapi</h5>
+        <p class="card-text">Rp.15.000,00</p>
+        <a href="#" class="btn btn-primary">Beli Sekarang</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+</div>
+<!-- end Product -->
+
+<!-- start contact -->
+<!-- <div class="container-fluid bg-dark">
+    <h1 class="display-6 text-light text-center p-3">Contact Me</h1>
+  <section id="contact" class="p-3 container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-3 text-center ">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">ALAMAT</h5>
+        <hr class="hr">
+        <p class="card-text fs-">Jl. Siliwangi No.26A Kuningan Jawa Barat 45521.</p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">EMAIL</h5>
+        <hr class="hr">
+        <p class="card-text fs-4">spw@smkpertiwikng.sch.id</p>
+      </div>
+    </div>
+  </div> 
+  
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">PHONE</h5>
+        <hr class="hr">
+        <p class="card-text">+62 232 875135</p>
+      </div>
+    </div>
+  </div>
+</div>  -->
+
+<div class="container-fluid bg-dark">
+    <h1 class="display-6 text-light text-center p-3">Contact Me</h1>
+  <section id="Contact" class="container p-3">
+    <div class="container-fluid row row-cols-1 row-cols-md-3 g-4 text-center">
+  <div class="col text-center fs-6">
+    <div class="card h-100 w-auto">
+      <div class="card-body">
+        <div class="icon p-3">
+          
+        <i class="bi bi-geo-alt"></i>
+        </div>
+        <h5 class="card-title">Alamat</h5>
+          <hr>
+        <p class="card-text">Jl. Siliwangi No.26A Kuningan Jawa Barat 45521.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col text-center fs-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <div class="icon f-5">
+          
+        <i class="bi bi-envelope"></i>
+        </div>
+        <h5 class="card-title">Email</h5>
+        <hr>
+        <p class="card-text">spw@smkpertiwikng.sch.id</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <div class="icon p-3">
+          
+        <i class="bi bi-telephone"></i>
+        </div>
+        <h5 class="card-title">Phone</h5>
+        <hr>
+        <p class="card-text">+62 232 875135</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- icons -->
+  <div class="icons text-center p-3 d-flex justify-content-center align-items-center" style="font-size: 1rem;">
+    <i class="bi bi-instagram p-3 m-3 img-thumbnail rounded-circle" style="background-color: gray; display: flex; justify-content: center; align-items-center "></i>
+    <i class="bi bi-whatsapp p-3 m-3 img-thumbnail rounded-circle" style="background-color: gray; display: flex; justify-content: center; align-items-center "></i>
+    <i class="bi bi-facebook p-3 m-3 img-thumbnail rounded-circle" style="background-color: gray; display: flex; justify-content: center; align-items-center "></i>
+    <i class="bi bi-tiktok p-3 m-3 img-thumbnail rounded-circle" style="background-color: gray; display: flex; justify-content: center; align-items-center "></i>
+  </div>
+<!-- start footer -->
+<footer class="d-flex justify-content-center align-items-center footer">
+<!--   <span class="text-light fs-5">Copyright by SMK PERTIWI KUNINGAN</span> -->
+  <h5 class="display-6 fs-5 text-light text-center p-3">Copyright by SMK PERTIWI KUNINGAN</h5>
+</footer>
+<!-- end footer -->
+  </section>
+</div>
+<!-- end contact -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
